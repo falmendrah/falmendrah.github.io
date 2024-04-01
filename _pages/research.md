@@ -5,16 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
 My research interests lie in the interaction between algebra, combinatorics, probability and statistics. More specifically, throughout my mathematical journey I have worked on projects in the fields of algebraic statistics, polyhedral geometry and algebraic combinatorics. I'm always in the lookout for new and exciting research directions. 
 
 ## Publications
